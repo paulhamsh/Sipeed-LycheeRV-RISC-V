@@ -10,8 +10,10 @@
 https://wiki.sipeed.com/hardware/en/lichee/RV/Dock.html  
 https://wiki.sipeed.com/hardware/en/lichee/RV/flash.html  
 
-Use PhoenixCard and the Debian image linked (also https://mega.nz/folder/lx4CyZBA#PiFhY7oSVQ3gp2ZZ_AnwYA/file/p8owQRaC) 
-Use the Start Up option   
+Use PhoenixCard and the Debian image linked (also https://mega.nz/folder/lx4CyZBA#PiFhY7oSVQ3gp2ZZ_AnwYA/file/p8owQRaC)    
+Use the Start Up option.      
+
+SD card fits in slot on top just opposite the HDMI socket.   
 
 ## Install Ubuntu
 
