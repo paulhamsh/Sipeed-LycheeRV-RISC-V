@@ -1,5 +1,11 @@
 # Lychee RV Dock   
 
+
+<p align="center">
+  <img src="https://github.com/paulhamsh/Sipeed-LycheeRV-RISC-V/blob/main/RV-Dock.jpg" width="400">
+</p>
+
+
 ## Install Debian
 https://wiki.sipeed.com/hardware/en/lichee/RV/Dock.html  
 https://wiki.sipeed.com/hardware/en/lichee/RV/flash.html  
