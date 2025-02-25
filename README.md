@@ -34,6 +34,8 @@ SD card fits in slot on top just opposite the HDMI socket.
 
 Log in as ```root``` / ```licheepi```        
 
+Use ```connman``` to set up your wifi    
+
 ## Install Ubuntu
 
 https://wiki.sipeed.com/hardware/en/lichee/RV/ubuntu.html  
