@@ -15,6 +15,8 @@ Use the Start Up option.
 
 SD card fits in slot on top just opposite the HDMI socket.   
 
+Log in as ```root``` / ```licheepi```        
+
 ## Install Ubuntu
 
 https://wiki.sipeed.com/hardware/en/lichee/RV/ubuntu.html  
@@ -24,6 +26,6 @@ https://cdimage.ubuntu.com/releases/oracular/release/ubuntu-24.10-preinstalled-s
 
 Use balenaEtcher which works nicely.   I used a 32MB SD card.   
 
-Booting is very very slow. Eventually you get a login prompt - with v24.10 use **ubuntu/ubuntu**   
+Booting is very very slow. Eventually you get a login prompt - with v24.10 use ```ubuntu``` / ```ubuntu```   
 
 There is no C or assembler by default.   
