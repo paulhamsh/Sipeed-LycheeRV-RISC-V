@@ -1,4 +1,4 @@
-# Lychee RV Dock   
+# Lichee RV Dock   
 
 
 <p align="center">
