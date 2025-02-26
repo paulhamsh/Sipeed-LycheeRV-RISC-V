@@ -1,6 +1,8 @@
 # Lichee RV Dock   
 
 A small RISC-V Allwinner D1 board in a special dock.      
+Intstructions to get a RISC V assembly language "hello world" to run.   
+Basically a summary of the Licehee RV Dock wiki and Stephen Smith's blog on RISC-V.     
 
 ## Lichee RV
 Fron https://wiki.sipeed.com/hardware/en/lichee/RV/RV.html   
