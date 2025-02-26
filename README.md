@@ -30,7 +30,7 @@ From https://wiki.sipeed.com/hardware/en/lichee/RV/Dock.html
 
 
 ## Install Debian
-https://wiki.sipeed.com/hardware/en/lichee/RV/flash.html  
+From here https://wiki.sipeed.com/hardware/en/lichee/RV/flash.html  
 
 Use PhoenixCard and the Debian image linked (also https://mega.nz/folder/lx4CyZBA#PiFhY7oSVQ3gp2ZZ_AnwYA/file/p8owQRaC)    
 Use the Start Up option.      
@@ -45,7 +45,9 @@ Use ```connman``` to set up your wifi
 
 ## Run Hello World from Stephen Smith's blog
 
-from here: https://smist08.wordpress.com/2019/09/07/risc-v-assembly-language-hello-world/    
+From here https://smist08.wordpress.com/2019/09/07/risc-v-assembly-language-hello-world/    
+
+Create ```hello.s```      
 
 ```
 #
