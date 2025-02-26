@@ -111,3 +111,7 @@ Use balenaEtcher which works nicely.   I used a 32MB SD card.
 Booting is very very slow. Eventually you get a login prompt - with v24.10 use ```ubuntu``` / ```ubuntu```   
 
 There is no C or assembler by default.   
+No desktop even though Debian has.   
+
+I tried it and reverted to using Debian.   
+
