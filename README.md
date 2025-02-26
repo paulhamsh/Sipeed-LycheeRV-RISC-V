@@ -8,6 +8,10 @@ Fron https://wiki.sipeed.com/hardware/en/lichee/RV/RV.html
 Lichee RV - Nezha CM is a compute module with modular design, equipped with Allwinner D1 chip (based on T-Head XuanTie C906 core), 512MB DDR3 RAM.  
 It can boot from TF card or SD-NAND, uses two sets of M.2 b key 67 pin connectors to route all IO, making it convenient for wide use and easy to replace.   
 
+<p align="center">
+  <img src="https://github.com/paulhamsh/Sipeed-LycheeRV-RISC-V/blob/main/D1-4.jpg" width="400">
+</p>
+
 ## Lichee RV Dock
 
 From https://wiki.sipeed.com/hardware/en/lichee/RV/Dock.html   
