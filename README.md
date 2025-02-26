@@ -48,3 +48,58 @@ Use balenaEtcher which works nicely.   I used a 32MB SD card.
 Booting is very very slow. Eventually you get a login prompt - with v24.10 use ```ubuntu``` / ```ubuntu```   
 
 There is no C or assembler by default.   
+
+## Run Hello World from Stephen Smith's blog
+
+from here: https://smist08.wordpress.com/2019/09/07/risc-v-assembly-language-hello-world/    
+
+```
+#
+# Risc-V Assembler program to print "Hello World!"
+# to stdout.
+#
+# a0-a2 - parameters to linux function services
+# a7 - linux function number
+#
+
+.global _start      # Provide program starting address to linker
+
+# Setup the parameters to print hello world
+# and then call Linux to do it.
+
+_start: addi  a0, x0, 1      # 1 = StdOut
+        la    a1, helloworld # load address of helloworld
+        addi  a2, x0, 13     # length of our string
+        addi  a7, x0, 64     # linux write system call
+        ecall                # Call linux to output the string
+
+# Setup the parameters to exit the program
+# and then call Linux to do it.
+
+        addi    a0, x0, 0   # Use 0 return code
+        addi    a7, x0, 93  # Service command code 93 terminates
+        ecall               # Call linux to terminate the program
+
+.data
+helloworld:      .ascii "Hello World!\n"
+
+```
+
+To compile and run
+
+```
+riscv64-linux-gnu-as -march=rv64imac -o hello.o hello.s
+riscv64-linux-gnu-ld -o hello hello.o
+chmod +x hello
+./hello
+```
+
+Or
+```
+as -o hello.o hello.s
+ld -o hello hello.o
+chmod +x hello
+./hello
+
+```
+
