@@ -5,7 +5,7 @@ Intstructions to get a RISC-V assembly language "hello world" to run.
 Basically a summary of the Licehee RV Dock wiki and Stephen Smith's blog on RISC-V.     
 
 ## Lichee RV
-Fron https://wiki.sipeed.com/hardware/en/lichee/RV/RV.html   
+From https://wiki.sipeed.com/hardware/en/lichee/RV/RV.html   
 
 
 >Lichee RV - Nezha CM is a compute module with modular design, equipped with Allwinner D1 chip (based on T-Head XuanTie C906 core), 512MB DDR3 RAM.  
