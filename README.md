@@ -41,6 +41,31 @@ Log in as ```root``` / ```licheepi```
 
 Use ```connman``` to set up your wifi    
 
+Set up ssh
+
+```
+sudo bash
+vi /etc/ssh/sshd_config
+```
+
+after line 
+
+```
+#PermitRootLogin prohibit-password
+```
+
+add
+
+```
+PermitRootLogin yes
+```
+
+then
+
+```
+systemctl stop ssh
+systemctl start ssh
+```
 
 
 ## Run Hello World from Stephen Smith's blog
