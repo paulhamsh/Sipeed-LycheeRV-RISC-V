@@ -29,7 +29,9 @@ From https://wiki.sipeed.com/hardware/en/lichee/RV/Dock.html
 </p>
 
 
-## Install Debian
+## Debian
+
+### Install   
 From here https://wiki.sipeed.com/hardware/en/lichee/RV/flash.html  
 
 Use PhoenixCard and the Debian image linked (also https://mega.nz/folder/lx4CyZBA#PiFhY7oSVQ3gp2ZZ_AnwYA/file/p8owQRaC)    
@@ -39,8 +41,20 @@ SD card fits in slot on top just opposite the HDMI socket.
 
 Log in as ```root``` / ```licheepi```        
 
+### Set up wifi   
 Use ```connman``` to set up your wifi    
 
+### Fix the apt NO_PUBKEY E852514F5DF312F6 error   
+Fixes it but then there is nothing it will apt-get....  
+
+On another computer download ```debian-ports-archive-keyring``` from http://ftp.cn.debian.org/debian/pool/main/d/debian-ports-archive-keyring/   
+I used ```debian-ports-archive-keyring_2025.02.01_all.deb``` because the one mentioned was not there   
+
+Get the latest one, and copy to your SD card (perhaps in ```/home/root/```
+Load up Debian then run ```sudo dpkg -i debian-ports-archive-keyring_2025.02.01_all.deb```    
+
+
+### Set up ssh   
 Set up ssh
 ```
 sudo bash
@@ -59,6 +73,8 @@ then
 systemctl stop ssh
 systemctl start ssh
 ```
+
+### Add a new user    
 Perhaps add a new user
 ```
 useradd paul
