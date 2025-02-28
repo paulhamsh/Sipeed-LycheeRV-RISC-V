@@ -45,7 +45,7 @@ Log in as ```root``` / ```licheepi```
 Use ```connman``` to set up your wifi    
 
 ### Fix the apt NO_PUBKEY E852514F5DF312F6 error   
-Fixes it but then there is nothing it will apt-get....  
+Fixes it there error report, but then there is nothing it will apt-get, so not sure it helps ....  
 
 **On another computer** (because wget is not installed) download a vesrion of ```debian-ports-archive-keyring``` (it will have a date after it, like ```debian-ports-archive-keyring_2025.02.01_all.deb```) from http://ftp.uk.debian.org/debian/pool/main/d/debian-ports-archive-keyring/   
 I used ```debian-ports-archive-keyring_2025.02.01_all.deb``` because the one mentioned was not there   
