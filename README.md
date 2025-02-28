@@ -51,7 +51,10 @@ On another computer download ```debian-ports-archive-keyring``` from http://ftp.
 I used ```debian-ports-archive-keyring_2025.02.01_all.deb``` because the one mentioned was not there   
 
 Get the latest one, and copy to your SD card (perhaps in ```/home/root/```
-Load up Debian then run ```sudo dpkg -i debian-ports-archive-keyring_2025.02.01_all.deb```    
+Load up Debian then run 
+```
+sudo dpkg -i debian-ports-archive-keyring_2025.02.01_all.deb
+```    
 
 
 ### Set up ssh   
