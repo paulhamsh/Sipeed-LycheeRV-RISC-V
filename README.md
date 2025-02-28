@@ -47,10 +47,13 @@ Use ```connman``` to set up your wifi
 ### Fix the apt NO_PUBKEY E852514F5DF312F6 error   
 Fixes it there error report, but then there is nothing it will apt-get, so not sure it helps ....  
 
-**On another computer** (because wget is not installed) download a vesrion of ```debian-ports-archive-keyring``` (it will have a date after it, like ```debian-ports-archive-keyring_2025.02.01_all.deb```) from http://ftp.uk.debian.org/debian/pool/main/d/debian-ports-archive-keyring/   
-I used ```debian-ports-archive-keyring_2025.02.01_all.deb``` because the one mentioned was not there   
+Note, wget is not installed in this version of DEbian so you need to get this file from another computer and store it on the SD card, perhaps in ```/home/root/```   
 
-Get the latest one, and copy to your SD card (perhaps in ```/home/root/```
+Download a version of ```debian-ports-archive-keyring``` (it will have a date after it, like ```debian-ports-archive-keyring_2025.02.01_all.deb```) 
+from http://ftp.uk.debian.org/debian/pool/main/d/debian-ports-archive-keyring/   
+
+I used ```debian-ports-archive-keyring_2025.02.01_all.deb``` because the one mentioned in the documentation is not there.       
+
 Load up Debian then run 
 ```
 sudo dpkg -i debian-ports-archive-keyring_2025.02.01_all.deb
