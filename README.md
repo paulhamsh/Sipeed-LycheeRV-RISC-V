@@ -34,7 +34,7 @@ From https://wiki.sipeed.com/hardware/en/lichee/RV/Dock.html
 ### Install   
 Instructions are here: https://wiki.sipeed.com/hardware/en/lichee/RV/flash.html  
 
-Download the Debian image ```20211230_LicheeRV_debian_d1_hdmi_8723ds.gz``` here: https://mega.nz/folder/lx4CyZBA#PiFhY7oSVQ3gp2ZZ_AnwYA/file/p8owQRaC    
+Download the Debian image ```20211230_LicheeRV_debian_d1_hdmi_8723ds.7z``` here: https://mega.nz/folder/lx4CyZBA#PiFhY7oSVQ3gp2ZZ_AnwYA/file/p8owQRaC    
 
 Use the Start Up option.      
 
