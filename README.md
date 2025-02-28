@@ -32,9 +32,10 @@ From https://wiki.sipeed.com/hardware/en/lichee/RV/Dock.html
 ## Debian
 
 ### Install   
-instructions are here: https://wiki.sipeed.com/hardware/en/lichee/RV/flash.html  
+Instructions are here: https://wiki.sipeed.com/hardware/en/lichee/RV/flash.html  
 
-Use PhoenixCard and the Debian image linked (also https://mega.nz/folder/lx4CyZBA#PiFhY7oSVQ3gp2ZZ_AnwYA/file/p8owQRaC)    
+Download the Debian image ```20211230_LicheeRV_debian_d1_hdmi_8723ds.gz``` here: https://mega.nz/folder/lx4CyZBA#PiFhY7oSVQ3gp2ZZ_AnwYA/file/p8owQRaC    
+
 Use the Start Up option.      
 
 SD card fits in slot on top just opposite the HDMI socket.   
