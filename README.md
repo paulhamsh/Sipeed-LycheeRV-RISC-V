@@ -99,7 +99,7 @@ Create ```hello.s```
 # to stdout.
 #
 # a0-a2 - parameters to linux function services
-# a7 - linux function number
+# a7    - linux function number
 #
 
 .global _start      # Provide program starting address to linker
